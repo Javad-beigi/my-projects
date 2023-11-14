@@ -6,7 +6,7 @@ The 'Password Generator Dashboard' is an interactive web application built with 
 ## Project Structure
 The project has the following structure:
 
-- `password_generators.py`: A Python module containing the password generators classes; `RandomPasswordGenerator`, `MemorablePasswordGenerator`, and `PinCodeGenerator`.
+- `main.py`: A Python module containing the password generators classes; `RandomPasswordGenerator`, `MemorablePasswordGenerator`, and `PinCodeGenerator`.
 - `app.py`: A Python script using Streamlit to create a web app interface for the password generators.
 - `README.md`: Documentation for the project solution. You are currently reading this!
 
