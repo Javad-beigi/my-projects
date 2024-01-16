@@ -1,4 +1,1 @@
-# number guesser
-# my first project in python
-
-
+This application is a number guessing game where users are allowed to make guesses to see if how many tries it takes them to get the correct number. The number of tries will equivalent to their score in the game. Users can select two difficulties, Standard (In this level, you will only guess between the numbers 1-10) and Hard (In this level, you will only guess between the numbers 1-100). After winning the game, users are allowed to keep playing if they would like to beat their high score. Take a shot and try beating your score today, I know you can do it :).
