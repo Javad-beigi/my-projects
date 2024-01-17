@@ -17,12 +17,12 @@ class WordCloudGenerator:
 
 if __name__ == '__main__':
     import sys
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
+    #input_file = sys.argv[1]
+    #output_file = sys.argv[2]
 
-    wc_gen = WordCloudGenerator(input_file)
+    wc_gen = WordCloudGenerator('data/movies.txt')
     wc_gen.run(
-        output_file,
+        'output.png',
         width=600, height=400,
         background_color='white',
     )
